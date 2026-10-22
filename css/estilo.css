@@ -1,4 +1,17 @@
-*{
+:root {
+    --cor-fundo: #061821;
+    --cor-painel: #111e28;
+    --cor-texto: #f5f7fa;
+    --cor-texto-secundario: #b5c1cb;
+    --cor-verde: #75d551;
+    --cor-borda: #314451;
+    --cor-foco: #b7f59b;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -34,8 +47,18 @@
     font-style: normal;
     font-display: swap;
 }
-body{
-    
+body {
+    min-height: 100vh;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: 'Inter', sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
 }
 
 h1 {

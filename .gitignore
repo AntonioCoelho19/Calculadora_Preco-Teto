@@ -1,0 +1,24 @@
+# Orientações e registros locais do desenvolvimento acompanhado
+/AGENTS.md
+/APLICAR_ATUALIZACAO.md
+/COMECE_AQUI.md
+/PROMPT_INICIAL.md
+/docs/
+/estudos/
+
+# Configurações locais de editores
+/.vscode/
+/.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Arquivos criados pelo sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Registros e arquivos temporários
+*.log
+*.tmp
